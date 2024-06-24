@@ -14,9 +14,23 @@
 // this recursive solution will finally provide the desired ans
 
 
-//time complexity=O(n) n=max(length(l1),length(l2))
+//Time complexity:
+// O(n) n=max(length(l1),length(l2))
 
+//Space complecity:
+//O(n)
 
+/*Definition for singly-linked list.*/
+struct ListNode {
+     int val;
+     ListNode *next;
+      ListNode() : val(0), next(nullptr) {}
+      ListNode(int x) : val(x), next(nullptr) {}
+     ListNode(int x, ListNode *next) : val(x), next(next) {}
+  };
+ 
+#include<bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     ListNode* solve(ListNode* l1, ListNode* l2,int carry=0){

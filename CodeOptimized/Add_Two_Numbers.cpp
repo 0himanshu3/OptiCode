@@ -1,11 +1,12 @@
+// Add Two Numbers
 //Question Link->https://leetcode.com/problems/add-two-numbers/description/
 
-//Down below is a Easy And Recursive Approach to solve this question
+// Easy And Recursive Approach to solve this question
 
 // solution link (https://leetcode.com/problems/add-two-numbers/solutions/5355926/beats-93-time-and-86-memory-recursive-and-easy-solution/)
 
 
-//Beats Beats 93% time and 86% memory 
+//Beats Beats 93% in time and 86% in memory 
 
 // Approach
 //We will start from the begining by taking our carry as 0
